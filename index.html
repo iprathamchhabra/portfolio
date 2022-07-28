@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham's Portfolio</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .navbar-nav {
+      position: absolute;
+      right: 0px;
+      padding: 10px;
+    }
+
+    .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  color: rgb(126, 78, 78);
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_1 {
+  position: absolute;
+  color: rgb(107, 102, 102);
+  top: 58%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_2 {
+  position: absolute;
+  color: rgb(23, 22, 22);
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_3 {
+  position: absolute;
+  top: 85%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.heading{
+  text-align: center;
+  color:green;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.heading::after{
+  content:'';
+  height:2px;
+  width:130%;
+  background:#f24432;
+  position:absolute;
+  left:calc(5% - 10%);
+  bottom:-5px;
+
+}
+
+.p_1{
+  font-size: 20px;
+  color: gray;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.bg{
+  background-color: aquamarine;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.container1 {
+  padding: 20px 40px 40px 40px;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.container_image{
+  width: 350px;
+  margin: 30px 30px 30px 0;
+  float: left;
+}
+.container_text{
+  display: inline;
+}
+
+.heading{
+  text-align: center;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a1{
+  text-align: center;
+}
+.hd1{
+  text-align: center;padding-top:25px;
+
+}
+
+.left{
+  float: left;
+  width: 45%;
+  padding-left: 80px;
+  color: coral;
+}
+
+.right{
+  float: right;
+  width: 45%;
+  color: coral;
+}
+
+.pl1{
+  color:rgb(71, 44, 8);
+}
+
+.pd{
+  color: rgb(75, 50, 17);
+}
+
+.icon{
+    height: 30px;
+    }
+
+.icon:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    }
+
+    .con{
+      background-color: antiquewhite;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">&emsp;Pratham Chhabra</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>&emsp;
+              <li class="nav-item">
+                <a class="nav-link" href="#bg">About</a>
+              </li>&emsp;
+              <li class="nav-item">
+                <a class="nav-link" href="#a1">Portfolio</a>
+              </li>&emsp;
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>&emsp;
+              <li class="nav-item">
+                <a class="nav-link" href="#hd1">Contact</a>
+              </li>&emsp;&emsp;&emsp;
+            </ul>
+          </div>
+        </div>
+      </nav><hr>
+      
+      <div class="container">
+      <img src="photo1.jpg" width="100%" height="700px">
+      <h1><div class="centered">Hi, I am Pratham Chhabra</div></h1>
+      <b><h1><div class="centered_1">A Front-End Developer</div></h1></b>
+      <h5><div class="centered_2">Get Ready to turn ideas into reality</div></h5>
+      <h5><div class="centered_3">
+      <a href="#" class="btn btn-outline-success" role="button" aria-pressed="true">Hire Me</a>
+      <a href="#" class="btn btn-outline-danger" role="button" aria-pressed="true">Get Resume</a>
+      </div></h5>
+      </div><hr>
+
+      
+      
+  <!--   </span><br><br>
+      <p class="p_1">&emsp;Hello! My name is Pratham and I enjoy creating things that live on the internet. My interest in web development started back in 2020 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
+      <p class="p_1">&emsp;Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
+      <p class="p_1">&emsp;I enjoy turing complex problems into simple, beautiful and intutive designs.When I'm not pushing pixels,you'll find me cooking, gardening or working out in the park.</p>
+      <p class="p_1">&emsp;I'm a web designer & front-end developer with 7 years of professional experience</p>
+    <div class="row">
+      <div class="side">
+        <img src="C:\Users\welcome\Desktop\PORTFOLIO\PHOTO.jpeg">
+      </div>
+      <div class="main">
+      </div>
+--> 
+
+<div class="container1">
+  <img class="container_image"  src="PHOTO.jpeg">
+  <div class="container_text">
+    <h2 class="bg" id="bg"><br>About Me!<br><br></h2>
+    <p>I'm a web designer & front end developer with 7 years of professional experience.I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces, I also have skills in other fields like branding, icon design or web development.</p>
+    <p>I enjoy turing complex problems into simple, beautiful and intutive designs.When I'm not pushing pixels,you'll find me cooking, gardening or working out in the park.
+</p>
+<a href="https://www.instagram.com/"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-256.png" class="icon"></a>&ensp;
+<a href="https://twitter.com/?lang=en"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-256.png" class="icon"></a>&ensp;
+<a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_snapchat-256.png" class="icon"></a>&ensp;
+<a href="https://www.whatsapp.com/?lang=en"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-128.png" class="icon"></a><br><br>
+
+  </div>
+</div>
+    </div>
+    <h2 class="a1" id="a1">My Portfolio</h2>
+  </div>
+
+  <div class="div3"><br>
+    <div id="poim1" style="padding-top: 50px ;">
+    <img src="pf1.jpg" style="float: left; padding-left: 10%;" id="img1" height="300px" width="700px" alt="image1">
+    <img src="pf2.jpg" id="img2" style="float: right; padding-right: 10%;" height="300px" width="700px" alt="image2">
+    </div><br><div id="poim2">
+    <img src="pf3.png" id="img3" style="float: left; padding-left: 10%;" id="img1" height="300px" width="700px" alt="image3">
+    <img src="pf4.png" id="img4"style="float: right; padding-right: 10%;" height="300px" width="700px" alt="image4">
+    </div>
+
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="con" style="margin-top: 20px;">
+  <h1 class="hd1" style="padding-top:20px;" id="hd1">Contact Me</h1>
+</div>
+<div>
+  <br><div class="left"><h2>Lets Connect</h2><br>
+   <p class="pl1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aspernatur totam, minima maxime illum voluptatibus odit, quis itaque culpa corporis minus, dolores debitis? Molestiae autem nesciunt nostrum, assumenda commodi modi qui beatae. Dolor, modi rem!</p>
+   <table cellpadding=15>
+    <tr><td>
+    <i class="fa fa-map-marker fa-2x i" aria-hidden="true"></i></td>
+                        <td class="pd">ADDRESS</td>
+                        <td class="pd">
+                            Chitkara University <br>
+                            IBN 
+                            
+                        </td>
+                        </tr>
+    
+    <tr>
+    <td>
+    <i class="fa fa-phone fa-2x i" aria-hidden="true"></i></td>
+                        <td class="pd">PHONE</td>
+                        <td class="pd">XXXXXXXXXX</td></tr>
+    
+    <tr><td>
+    <i class="fa fa-envelope fa-2x i" aria-hidden="true"></i></td>
+                        <td class="pd">E-MAIL</td>
+                        <td class="pd">prathamsresume@gmail.com</td>
+    
+    </table>
+  </div>
+  
+  <div class="right"><h2>Send me a message</h2><br>
+    <form>
+      <label>First & last Name</label><br>
+      <input type="text" id="frst name" name="frst name" placeholder="Please enter your name" required><br><br>
+      <label>EMAIL ADDRESS</label><br>
+      <input type="gmail" id="email" name="email" placeholder="@email" required><br><br>
+      <label>Message: </label><br>
+      <input type="text" id="cntcts" name="cntcts" required><br><br>
+      <button type="button" class="btn btn-success">send message</button>
+  </form>
+  </div>
+  
+</div>
+
+
+</body>
+</html>
